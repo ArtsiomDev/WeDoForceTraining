@@ -1,0 +1,2 @@
+# WeDoForceTraining
+Task solving
