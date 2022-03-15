@@ -1,12 +1,13 @@
 public with sharing class Basics_103_SOQL {
   // Write a SOQL query to get total number of Accounts and show it using System.debug()
   public static void Task01() {
-    //put your code here
+    Integer totalAccounts = [SELECT Count(), FROM Account];
+    System.debug('Total number of Accounts =' + totalAccounts);
   }
 
   // Write a SOQL query to get all Accounts ordered by the Name field by descending. Make output in loop using System.debug()
   public static void Task02() {
-    //put your code here
+   
   }
 
   // Write a SOQL query to get all Accounts with names contains 'elle'. Make output in loop using System.debug()
